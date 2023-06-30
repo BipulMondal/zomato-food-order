@@ -194,7 +194,9 @@ input {
    margin-left: 0.5rem;
    font-size: 1.2rem;
 }
-/**/
+/*-------------------------------------------------*/
+    /*------popular places page style---------*/
+/*-------------------------------------------------*/
 
 .places-main {
     width: 90vw;
@@ -250,3 +252,81 @@ input {
     justify-content: center;
     align-items: center;
 }
+
+/*-------------------------------------------------*/
+    /*------get the app page style---------*/
+/*-------------------------------------------------*/
+.getapp-main {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    background: #fcfae9;
+    padding-bottom: 8rem;
+}
+#mobile {
+    padding-top: 8rem;
+    height: 30rem;
+}
+.getapp-right {
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+.getapp-right > h1 {
+    font-size: 4.2rem;
+    font-weight: 400;
+    margin-left: 1rem;
+}
+.getapp-right p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+.checkbox {
+    display: flex;
+    margin-top: 2rem;
+}
+#email, #phone {
+    height: 2rem;
+}
+.email, .phone {
+    width: 8rem;
+    display: flex;
+}
+.phone {
+    margin-left: 5rem;
+}
+label {
+    font-size: 1.5rem;
+}
+.share-link {
+    margin-top: 1.5rem;
+    display: flex;
+}
+#search {
+    height: 5rem;
+    border-color: #8f8d8d;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 1rem;
+    width: 26rem;
+    padding-left: 2rem;
+    font-size: 1.5rem;
+}
+#share-link-btn {
+    height: 5rem;
+    width: 17rem;
+    margin-left: 1.2rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    background-color: #ff2e2e;
+    border: none;
+    color: #ffffff;
+}
+.getappbottom h6 {
+    font-size: 1.4rem;
+    margin: 2rem 0;
+}
+
+.link :nth-child(2) {
+    margin-left: 2rem;
+}
+

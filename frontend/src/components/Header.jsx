@@ -2,6 +2,7 @@ import React from "react";
 import "../style.css"
 import Collections from "./Collections";
 import PopulerPlaces from "./PopulerPlaces";
+import Gettheapp from "./Gettheapp";
 
 
 const Header = () => {
@@ -67,6 +68,7 @@ const Header = () => {
      </div>
      <Collections/>
      <PopulerPlaces />
+     <Gettheapp />
     </div>
      
   );
