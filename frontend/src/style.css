@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*-----------------------------*/
+/* Header page style */
+/*-----------------------------*/
+.main {
+    height: auto;
+    width: 100vw;
+}
+.header-top{
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    background-repeat: no-repeat;
+    background-size: 100% 110%;
+    height: 450px;
+    color: #ffffff;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 45px;
+}
+
+.navlist, .GetTheApp {
+    display: flex;
+    margin-top: 25px;
+}
+.navlist h2 {
+    margin-left: 60px;
+    cursor: pointer;
+    font-weight: 400;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+#zomato {
+    height: 5rem;
+}
+.name h3 {
+    font-size: 2.8rem;
+    font-weight:300;
+    margin-top: 1.5rem;
+}
+#location {
+    height: 1.5rem;
+    margin-left: 0.5rem;
+}
+#downicon {
+    height: 1rem;
+    cursor: pointer;
+}
+.line {
+    height: 1.5rem;
+    width: 0.2rem;
+    background: #8f8d8d;
+}
+#search {
+    height: 1.5rem;
+}
+.searchbar {
+    background: #ffffff;
+    color: #000000;
+    display: flex;
+    height: 4rem;
+    width: 55rem;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+}
+.searchbar_left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    width: 40%;
+}
+.searchbar_left_left,.searchbar_left_right {
+    display: flex;
+}
+.searchbar_left_left h5{
+    margin-left: 1rem;
+    margin-top: -0.2rem;
+    font-size: 1.2rem;
+    font-weight:500;
+}
+.searchbar_left_right img {
+    margin: 0 1rem;
+} 
+
+.searchbar_right {
+    width: 60%;
+    border-radius: 2rem;
+}
+input {
+    border: none;
+    width: 90%;
+    height: 100%;
+    outline: none;
+    font-size: 1.2rem;
+}
+.header-bottom {
+    margin-top: 3rem;
+    padding: 0 6rem;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5rem;
+}
+.header-bottom img{
+    height: 15rem;
+    width: 30rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.bottom-div {
+    border: 1px solid #e7e7e7;
+    border-radius: 1rem;
+    height: 21rem;
+}
+.bottom-div h3,p {
+    margin-left: 1.5rem;
+    padding: 0.3rem;
+    font-size: 1.2rem;
+}
+/*------------------------------------*/
+    /* Collection page style */
+/*------------------------------------*/
+
+.Collection-main {
+    width: 90vw;
+    margin: auto;
+    padding-bottom: 5rem;
+}
+.Collection-main h1 {
+   /* margin-left: 1.5rem; */
+   font-size: 3rem;
+   font-weight: 400;
+}
+.collection-text {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+}
+.collection-text p {
+    margin-left: 0;
+    font-size: 1.5rem;
+}
+#all-collection {
+    color: #ff0000;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+#red-triangle {
+    height: 1rem;
+    rotate: 90deg;
+    mix-blend-mode: color-burn;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.collections {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+.collection-image {
+    height: 30rem;
+    width: 23rem;
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+.collection-image img {
+    height: 24rem;
+    width: 25rem;
+    border-radius: 0.5rem;
+    position: absolute;
+    z-index: -1;
+    cursor: pointer;
+}
+.collections-bottom-text {
+    backdrop-filter: brightness(30%);
+    height: 5rem;
+}
+
+.collection-image h4 {
+   margin-top: 20rem;
+   margin-left: 0.5rem;
+   font-size: 1.5rem;
+}
+.collection-image h5 {
+   margin-left: 0.5rem;
+   font-size: 1.2rem;
+}
+/**/
+
+.places-main {
+    width: 90vw;
+    margin: auto;
+    padding-bottom: 5rem;
+}
+.places-main > h1 {
+    font-size: 3.5rem;
+    font-weight: 300;
+}
+.places-main > h1 > span{
+    font-weight: 400;
+}
+.places {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   margin-top: 4rem;
+}
+.place {
+    display: flex;
+    justify-content: space-between;
+    height: 6rem;
+    width: 31rem;
+    text-align: start;
+    border-color: #d4d4d4;
+    border-width: thin;
+    border-style: solid;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+.place-text h1, h6 {
+    font-weight: 300;
+   margin-left: 1rem;
+}
+.place-text h1 {
+    font-size: 2.2rem;
+    margin-top: 0.2rem;
+}
+.place-text h6 {
+    font-size: 1.4rem;
+    margin-top: 0.2rem;
+}
+.right-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+}
+.see-more {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
