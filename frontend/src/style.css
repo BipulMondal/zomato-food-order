@@ -49,17 +49,10 @@
     height: 1.5rem;
     margin-left: 0.5rem;
 }
-#downicon {
-    height: 1rem;
-    cursor: pointer;
-}
 .line {
     height: 1.5rem;
     width: 0.2rem;
     background: #8f8d8d;
-}
-#search {
-    height: 1.5rem;
 }
 .searchbar {
     background: #ffffff;
@@ -173,7 +166,7 @@ input {
     border-radius: 0.5rem;
 }
 .collection-image img {
-    height: 24rem;
+    height: 27rem;
     width: 25rem;
     border-radius: 0.5rem;
     position: absolute;
@@ -186,7 +179,7 @@ input {
 }
 
 .collection-image h4 {
-   margin-top: 20rem;
+   margin-top: 22rem;
    margin-left: 0.5rem;
    font-size: 1.5rem;
 }
@@ -330,3 +323,38 @@ label {
     margin-left: 2rem;
 }
 
+/*---------------------------------------------*/
+    /* Explore options near me page style */
+/*---------------------------------------------*/
+
+.explore-option-main {
+    width: 90vw;
+    margin: auto;
+    padding: 5rem 0;
+}
+.explore-option-main > h1 {
+    padding-bottom: 3rem;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+.explore-options {
+    height: 6rem;
+    border-color: #c6c6c6;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 0.5rem;
+    padding: 0 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+.explore-options > h3{
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+/*-----------------------------------*/
+    /* Footer page style */
+/*-----------------------------------*/

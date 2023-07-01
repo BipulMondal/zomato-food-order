@@ -3,6 +3,9 @@ import "../style.css"
 import Collections from "./Collections";
 import PopulerPlaces from "./PopulerPlaces";
 import Gettheapp from "./Gettheapp";
+import { BsSearch } from 'react-icons/bs'
+import { AiFillCaretDown } from 'react-icons/ai'
+import Exploreoptions from "./Exploreoptions";
 
 
 const Header = () => {
@@ -35,9 +38,9 @@ const Header = () => {
               <h5>Kolkata</h5>
             </div>
             <div className="searchbar_left_right">
-              <img id="downicon" src="./downicon.png" alt="" />
+              <AiFillCaretDown style={{fontSize: "1.5rem", padding: "0 1rem"}} />
               <div className="line"></div>
-              <img id="search" src="./search.png" alt="" />
+              <BsSearch style={{fontSize: "1.5rem", padding: "0 1rem"}}/>
             </div>
           </div>
           <div className="searchbar_right">
@@ -69,6 +72,7 @@ const Header = () => {
      <Collections/>
      <PopulerPlaces />
      <Gettheapp />
+     <Exploreoptions />
     </div>
      
   );
