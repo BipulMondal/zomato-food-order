@@ -207,7 +207,7 @@ input {
     display: flex;
     justify-content: space-between;
     width: 100%;
-   margin-top: 4rem;
+   margin-top: 1rem;
 }
 .place {
     display: flex;
@@ -358,3 +358,86 @@ label {
 /*-----------------------------------*/
     /* Footer page style */
 /*-----------------------------------*/
+
+.footer-main {
+    width: 90vw;
+    margin: auto;
+    margin-top: 2rem;
+    padding-bottom: 5rem;
+}
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-top-right {
+    display: flex;
+}
+#flag{
+    height: 2rem;
+}
+#earth {
+    height: 2rem;
+    mix-blend-mode: color-burn;
+}
+.countries , .languages {
+    height: 3.5rem;
+    width: 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid;
+    border-color: #8f8d8d;
+    border-width: thin;
+    border-radius: 0.5rem;
+}
+.countries {
+    margin-right: 1.5rem;
+}
+.countries > h4, .languages  > h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.footer-middle {
+    width: 85vw;
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-list > h3 {
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+}
+.footer-list > h3 > span {
+    margin-left: 1rem;
+}
+.footer-list > h4 {
+    font-weight: 300;
+    margin: 0.5rem 0;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+#enterprise{
+    margin-top: 3rem;
+    margin-bottom: 0;
+}
+
+.downlink-link {
+    display: flex;
+    flex-direction: column;
+}
+.downlink-link > img {
+    height: 4rem;
+    width: 13rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.footer-main > hr {
+    margin-top: 5rem;
+}
+.footer-bottom > p {
+    margin-top: 1rem;
+    width: 100%;
+    color: #9a9a9a;
+    margin-left: 0.2rem;
+}

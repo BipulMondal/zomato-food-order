@@ -6,6 +6,7 @@ import Gettheapp from "./Gettheapp";
 import { BsSearch } from 'react-icons/bs'
 import { AiFillCaretDown } from 'react-icons/ai'
 import Exploreoptions from "./Exploreoptions";
+import Footer from "./Footer";
 
 
 const Header = () => {
@@ -73,6 +74,7 @@ const Header = () => {
      <PopulerPlaces />
      <Gettheapp />
      <Exploreoptions />
+     <Footer />
     </div>
      
   );
